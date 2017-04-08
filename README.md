@@ -2,13 +2,18 @@
 Google Chrome Tab Management Extension - Merge, Sort, split and more :)
 
 - Merge
-- sort
-- split
+   - merges all windows
+- Sort
+   - sort tabs by domain and titles
+   - can sort all windows or just a single one
+- Split
+   - splits a window in 2
+- Shuffle
+   - will shuffle the tabs within the current window  (it's just fun xD)
 - Save 
    - save current window to a text file
    - links are shortened using google URL Shortener 
    - the file content is sorted by page title
-   
 - Deduplicate
   - remove deplicate open url tabs from current windo
 
