@@ -17,6 +17,9 @@ Google Chrome Tab Management Extension - Merge, Sort, split and more :)
 - Deduplicate
   - remove deplicate open url tabs from current windo
 
+### Preview 
+
+![Alt text](/tabSorter2.png?raw=true "Optional Title")
 
 ### Build quirks
  -> problem css imports ignored
