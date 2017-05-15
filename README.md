@@ -24,3 +24,6 @@ Google Chrome Tab Management Extension - Merge, Sort, split and more :)
 ### Build quirks
  -> problem css imports ignored
    -> it's gulp-clean-css@2.4.x fault [fix Here](https://github.com/opensensorhub/osh-js/issues/36)
+
+### TODO:
+  - Upgrade split function to split left on current tab
