@@ -32,10 +32,11 @@ Google Chrome Tab Management Extension - Merge, Sort, split and more :)
    -> it's gulp-clean-css@2.4.x fault [fix Here](https://github.com/opensensorhub/osh-js/issues/36)
 
 ### TODO:
-  - <s>Automatically suspend tab after a configurable delay to save memory ?? </s>
-  - <s>Isolate a single domain in a separate windows </s>
+  - <s> Automatically suspend tab after a configurable delay to save memory ?? </s>
+  - <s> Isolate a single domain in a separate windows </s>
   - <s> Unite - bring all tabs of a domain in the same current window </s>
   - <s> Close a domain </s>
-  - Isolate all domains with more than 5 tabs in a window for each domain and mingle the rest of them into 1 window.
+  - <s> Backward compatible loading of previously saved Tabs </s>  **YASSS !!!**
   - Upgrade split function to split left on current tab  - split Here
   - Stress test split function and memory management
+  - Freeze - (Discard) remove all tabs in current window from memory but leaves the tab visible in the browser
