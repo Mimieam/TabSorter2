@@ -22,6 +22,7 @@ Google Chrome Tab Management Extension - Merge, Sort, split and more :)
    - pages will remain open in your browser
 - Close (**new**)
    - Closes all tabs under a domain
+   - multiple subdomain are not currently supported
 - Save 
    - save current window to a text file
    - links are shortened using google URL Shortener 
