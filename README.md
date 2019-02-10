@@ -46,10 +46,11 @@ Google Chrome Tab Management Extension - Merge, Sort, split and more :)
    -> it's gulp-clean-css@2.4.x fault [fix Here](https://github.com/opensensorhub/osh-js/issues/36)
 
 ### TODO:
+
   - Improve sorting - add options to sort by regex pattern and parameters
-  - Add Support for pinned Tabs
+  - <s>Add Support for pinned Tabs </s> ( this was suprisingly complicated 😅)
   - Options to automatically sort the tabs by title
-  - Upgrade split function to split left on current tab  - split Here
+  - <s>Upgrade split function to split left on current tab  - split Here </s>
   - <s> Automatically suspend tab after a configurable delay to save memory ?? </s>
   - <s> Isolate a single domain in a separate windows </s>
   - <s> Unite - bring all tabs of a domain in the same current window </s>
@@ -59,6 +60,23 @@ Google Chrome Tab Management Extension - Merge, Sort, split and more :)
   - <s>Freeze - (Discard) remove all tabs in current window from memory but leaves the tab visible in the browser</s>
 
 ### versions
+
+v0.0.6 - WIP  
+- Options window:
+  - regex
+  - exclude merge list
+  - <s>split from here on</s>
+  - ignore params after special characters - #,&
+  - auto sort tabs - sort as they loaded
+- main & background: 
+   - Undo - undo any step  ?? 
+   - <s>sort and pin tab separatly </s>
+   - support for the great suspender
+   - merge the last 2 windows - WIP
+   - subdomain subsorting - WIP
+   - Options to automatically sort the tabs by title
+- improve design :)
+       
 v0.0.5 - 06/22/18 - new features added and improved Icon for better visibility
    - fixed windows id bug on split
    - added tab recycling
