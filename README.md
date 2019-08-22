@@ -57,22 +57,30 @@ Google Chrome Tab Management Extension - Merge, Sort, split and more :)
  
 ### versions
 
-### TODO: v0.0.6 - WIP  
+### TODO: v0.0.6 - WIP  - 08/21/2019
 - Options window:
-  - Improve sorting - add options to sort by regex pattern and parameters
-  - exclude merge list 
+  - <s>Improve sorting - add options to sort by regex pattern and parameters</s>
+  - <s>exclude merge list </s>
   - <s>Upgrade split function to split left on current tab  - split Here </s>
   - ignore params after special characters - #,&
-  - auto sort tabs - sort as they loaded
+  - <s>auto sort tabs - sort as they loaded</s>
 - main & background: 
+   - make loadfile backward compatible
+   - exclude merge list
+   - useActive* function on start
+   - split backgroundjs
+   - Save pinned tabs / add option for transfer on close
+   - onClose - ignore pinned tab
+   - create integration test
+   - deduplicate ignore after delimiter
    - Undo - undo any step  ?? 
    - <s>Add Support for pinned Tabs </s> ( this was suprisingly complicated 😅)
    - <s>sort and pin tab separatly </s>
-   - support for the great suspender
    - <s>merge the last 2 windows </s>
-   - subdomain subsorting - WIP
-   - Options to automatically sort the tabs by title
-   - search my tabs ( 😁 - idk yet how it gonna happen lol )
+   - <s>subdomain subsorting - WIP </s>
+   - <s>Options to automatically sort the tabs by title</s>
+   - <s>search my tabs ( 😁 - idk yet how it gonna happen lol )</s>  (*Done but not added to TS2*)
+   
 - improve design :)
        
 v0.0.5 - 06/22/18 - new features added and improved Icon for better visibility
