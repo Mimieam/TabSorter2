@@ -57,13 +57,16 @@ A Tab Manager for Google Chrome; Merge, Sort, Split, and More :)
 
 ### TODO: v0.0.6 - WIP  - 08/21/2019
 
-- Options Window:
+#### Options Window
+
+  - [ ] ignore params after special characters - #,&
   - [x] Improve sorting - add options to sort by regex pattern and parameters
   - [x] exclude merge list~~
   - [x] Upgrade split function to split left on current tab  - split Here
-  - [ ] ignore params after special characters - #,&
   - [x] auto sort tabs - sort as they are loaded
-- Main Background:
+
+#### Main Background
+
   - [ ] Make loadfile backward compatible
   - [ ] Exclude merge list
   - [ ] useActive* function on start
@@ -80,9 +83,9 @@ A Tab Manager for Google Chrome; Merge, Sort, Split, and More :)
   - [x] Subdomain subsorting - WIP
   - [x] Options to automatically sort the tabs by title
   - [x] Search my tabs ( 😁 - idk yet how it gonna happen lol ) (*Done but not added to TS2*)
-- improve design :)
+- [ ] Improve the design :)
 
-v0.0.5 - 06/22/18 - Added new features and improved icon for visibility
+### v0.0.5 - 06/22/18 - Added new features and improved icon for visibility
 
 - fixed windows id bug on split
 - added tab recycling
@@ -94,7 +97,7 @@ v0.0.5 - 06/22/18 - Added new features and improved icon for visibility
 - [x] Stress test split function and memory management
 - [x] Freeze - (Discard) remove all tabs in current window from memory but leaves the tab visible in the browser
 
-v0.0.4 - 09/18/17 -  Completed the Option page with support for side by side split
+v0.0.4 - 09/18/17 - Completed the Option page with support for side by side split
 
 v0.0.3 - 04/08/17 - Updated UI - added Save & Deduplicate
 
