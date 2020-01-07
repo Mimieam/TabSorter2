@@ -39,7 +39,11 @@ A Tab Manager for Google Chrome; Merge, Sort, Split, and More :)
   - options need to be saved to persist
 
 ## Preview
+--New v1.1--
+![Popup 1.1](/preview_v1.1.png?raw=true "Popup view")
 
+
+--Old v0.1~0.5--
 ![Popup](/tabSorter2.png?raw=true "Popup view")
 ![Options](/tabSorter2-options.png?raw=true "Option view")
 
