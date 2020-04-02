@@ -12,6 +12,7 @@ A Tab Manager for Google Chrome; Merge, Sort, Split, and More :)
   - splits a window in 2 ( by default )
   - can be change to 3 or 4 in option window
   - windows can be seen side by side if the option is checked
+- Split by Domain (**new**)
 - Shuffle
   - will shuffle the tabs within the current window  (it's just fun xD)
 - Unite (**new**)
@@ -49,46 +50,55 @@ A Tab Manager for Google Chrome; Merge, Sort, Split, and More :)
 ![Options](/tabSorter2-options.png?raw=true "Option view")
 
 ## Build quirks
-
-- Problem CSS imports are ignored
-- Fault with gulp-clean-css@2.4.x. [There is a fix here](https://github.com/opensensorhub/osh-js/issues/36).
-
-## Ideas and Enhancements
-
-- Auto-suspend tabs after configurable delay to save memory
-- Time travel!
-
+ - build moved to webpack :) 
+ 
 ## Versions
 
-### TODO: v0.0.6 - WIP  - 08/21/2019
+### Ideas and Enhancements - TODO: v1.2.0
 
+  #### HARD and Experimental ...
+  - [ ] Undo any steps (partially implemented) 
+  - [ ] Alarm mode - a tab will become active and focused after some times- ... ( done - not added)
+  #### new features
+  - [ ] Add support for shotcuts 
+  - [ ] Save current tab to Clipboard - ( sometimes we just want to copy all the url and not save them first 🤷🏾‍♂️ )
+  
+  #### update to existing features
+  - [ ] ignore on merge - TS2 will ignore specific URLS on merge
+  - [ ] Create integration test
+  - [ ] revisit Deduplicate & ignore after delimiter
+  - [ ] ignore params after special characters - #,& ( expected to affect - sorting, deduplicating)
+  #### bug fixes
+  - [ ] improve handling of pinned_tabs
+
+
+###  v1.1.0 - WIP  - 01/05/2020 
+  - v0.0.6 - Abandoned due to a change in chrome API - 08/21/2019
+  - [x] complete redesign and refactoring
+  
 #### Options Window
-
-  - [ ] ignore params after special characters - #,&
   - [x] Improve sorting - add options to sort by regex pattern and parameters
-  - [x] exclude merge list~~
   - [x] Upgrade split function to split left on current tab  - split Here
   - [x] auto sort tabs - sort as they are loaded
 
-#### Main Background
 
-  - [ ] Make loadfile backward compatible
-  - [ ] Exclude merge list
-  - [ ] useActive* function on start
-  - [ ] split backgroundjs
-  - [ ] Save pinned tabs
-  - [ ] Transfer pinned tabs on-close
-  - [ ] Ignore pinned tabs onClose
-  - [ ] Create integration test
-  - [ ] Deduplicate ignore after delimiter
-  - [ ] Undo any steps
+#### Main Background
+  - [x] added support for subdomain - thanks to [publicsuffix.org](https://publicsuffix.org/list/public_suffix_list.dat)
+  - [x] Make loadfile backward compatible
+
+  - [x] useActive* function on start
+  - [x] split backgroundjs
+  - [x] Save pinned tabs
+  - [x] Transfer pinned tabs on-close
+  - [x] Ignore pinned tabs onClose
+  
   - [x] Add Support for pinned Tabs ( this was suprisingly complicated 😅)
   - [x] Sort and pin tab separatly
   - [x] Merge the last 2 windows
   - [x] Subdomain subsorting - WIP
   - [x] Options to automatically sort the tabs by title
   - [x] Search my tabs ( 😁 - idk yet how it gonna happen lol ) (*Done but not added to TS2*)
-- [ ] Improve the design :)
+  - [x] Improve the design :)
 
 ### v0.0.5 - 06/22/18 - Added new features and improved icon for visibility
 
