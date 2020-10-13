@@ -61,9 +61,11 @@ A Tab Manager for Google Chrome; Merge, Sort, Split, and More :)
   - [ ] Alarm mode - a tab will become active and focused after some times- ... ( done - not added)
   #### new features
   - [ ] Add support for shotcuts 
+  - [ ] Add support for context Menu 
   - [ ] Save current tab to Clipboard - ( sometimes we just want to copy all the url and not save them first 🤷🏾‍♂️ )
   
   #### update to existing features
+  - [ ] enhance sort function 
   - [ ] ignore on merge - TS2 will ignore specific URLS on merge
   - [ ] Create integration test
   - [ ] revisit Deduplicate & ignore after delimiter
