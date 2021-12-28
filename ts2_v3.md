@@ -18,6 +18,8 @@ TabSorter 2 - 2022
 
 
 ### What are the future plans?
+Development will continue, I'm planning to have a Mv3 version by end of January 2022.
+There are a couple of outstanding Mv3 issues for which I'm actively looking for workarounds.
 
 - #### Mannifest Version 3 
 
