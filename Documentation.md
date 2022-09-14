@@ -28,6 +28,11 @@
 - Feedback
   - used to Submit feedbacks, comments, bugs or suggestions
 
+- Behavioral Buttons:
+  - Auto Pin follow - will keep your pinned tabs accross windows
+  - Auto Sort - will keep your tab sorted each time a new tab is opened ( this can be a bit confusing if one forget it is active...)
+  - Auto Discard - any tab inactive for more than 45min will be remove from memory (but the tab will still be visible in the window)
+
 <br>
 
 
