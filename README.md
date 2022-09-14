@@ -81,7 +81,7 @@ These are some ideas that I have been thinking about, but have yet to figure out
   * [x] Behavioral button
     * [x] Auto Sorting (Active Sorting)
     * [x] Pinned Tab auto follow (Active Pinning)
-    * [x] Discard tabs after 15min of inactivity
+    * [x] Discard tabs after 45min of inactivity
     * [x] Auto Save and Close tabs after 1hr of inactivity (done but disabled - pending session companion page... )
   * [x] Tab Info Map (TIM) - initial implementation
   * [x] Alarms permission (used by TIM to determine when a tab should be discarded)
