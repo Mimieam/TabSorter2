@@ -42,7 +42,6 @@ My hope is that with your continuous support, I will be able to keep on improvin
 ## Roadmap / Backlog
 
 #### **Suggestions:**
-  - [ ] Add support for shortcuts
   - [ ] Add support for context Menu
   - [ ] Save current tab to Clipboard - (sometimes we might want to copy all the url and not save them first 🤷🏾‍♂️)
   - [ ] enhance sort function
@@ -52,17 +51,19 @@ My hope is that with your continuous support, I will be able to keep on improvin
   - [ ] ignore params after special characters - #,& ( expected to affect - sorting, deduplicating)
   - [ ] Optional sorting on pinned tabs
   - [ ] deduplicate on all windows not just the current one
+  - [ ] Welcome page / Wiki and Documentation
+  - [ ] Safari and Mozilla experimentation
 
 #### **Enhancements:**
   - [ ] add behavioral options to remove redundant all/current buttons?
   - [ ] Undo last 2 action
-  - [ ] improve handling of pinned_tabs
+  - [x] improve handling of pinned_tabs
 
 #### **Wild Ideas:**
 These are some ideas that I have been thinking about, but have yet to figure out their feasibility and if they are worth investing dev time.
   - [ ] split in multiple layout patterns.. e.i: 3x1, 4*4
   - [ ] add Group support to sorting/merging/split
-  - [ ] save and reload tab groups?
+  - [x] save and reload tab groups (the tabGroup API isn't sorting friendly...)
   - [ ] user defined functionalities?
 
 
@@ -70,12 +71,28 @@ These are some ideas that I have been thinking about, but have yet to figure out
 
 ## Version History
 
+**[v2.1.0](https://github.com/Mimieam/TabSorter2/discussions/33)** - 09/13/2022 (Released, pending review)
+#### **Added:**
+  * [x] Basic shortcuts added
+    * [x] sort_current: `Alt+Shift+S`
+    * [x] merge_all: `Alt+Shift+M`
+    * [x] shuffle: `Alt+Shift+F`
+    * [x] discard (freeze): `Alt+Shift+D`
+  * [x] Behavioral button
+    * [x] Auto Sorting (Active Sorting)
+    * [x] Pinned Tab auto follow (Active Pinning)
+    * [x] Discard tabs after 15min of inactivity
+    * [x] Auto Save and Close tabs after 1hr of inactivity (done but disabled - pending session companion page... )
+  * [x] Tab Info Map (TIM) - initial implementation
+  * [x] Alarms permission (used by TIM to determine when a tab should be discarded)
+  * [x] Help Tooltip 
+
+#### **Changed:**
+  * [x] fixed pin tab indexing bug
+ 
+ 
+#
 **v2.0.0** - Targeted Release date: August 2022
-#### **TODO:**
-
-- [ ] Welcome page / Wiki and Documentation
-- [ ] Safari and Mozilla experimentation
-
 #### **Added:**
   * [x] Switch to [MV3](https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/)
   * [x] **Focus/Unfocus** functionalities
@@ -141,7 +158,6 @@ These are some ideas that I have been thinking about, but have yet to figure out
     - Improved design :)
 
 #
-
 **v0.0.5** - 06/22/18
 - Added new features and improved icon for visibility
 - fixed windows id bug on split
