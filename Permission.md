@@ -9,7 +9,8 @@
   "permissions": [
     "tabs",
     "storage",
-    "system.display"
+    "system.display",
+    "alarms"
   ],
   "optional_permissions": [
     "downloads"
@@ -36,6 +37,12 @@ Storage:
 System.display:
   - **usage**: used to access the screen dimensions, used for the purpose of splitting and stacking the windows
   - **details**: https://developer.chrome.com/extensions/system_display
+
+<br>
+
+Alarms:
+  - **usage**: used to implement an auto discard functionality checking if a tab has been opened for more than 45 minute and discarding it from memory
+  - **details**: https://developer.chrome.com/extensions/alarms
 
 <br>
 
