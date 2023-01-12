@@ -44,20 +44,19 @@ My hope is that with your continuous support, I will be able to keep on improvin
 #### **Suggestions:**
   - [ ] Add support for context Menu
   - [ ] Save current tab to Clipboard - (sometimes we might want to copy all the url and not save them first 🤷🏾‍♂️)
-  - [ ] enhance sort function
+  - [x] enhance sort function
   - [ ] ignore on merge - TS2 will ignore specific URLS when merging all windows
   - [ ] revisit Deduplicate & ignore after delimiter
   - [ ] Add a whitelist to prevent deduplicating on specifics URLs
   - [ ] ignore params after special characters - #,& ( expected to affect - sorting, deduplicating)
-  - [ ] Optional sorting on pinned tabs
+  - [x] Optional sorting on pinned tabs
   - [ ] deduplicate on all windows not just the current one
   - [ ] Welcome page / Wiki and Documentation
-  - [ ] Safari and Mozilla experimentation
+  - [x] Safari and Mozilla experimentation
 
 #### **Enhancements:**
   - [ ] add behavioral options to remove redundant all/current buttons?
   - [ ] Undo last 2 action
-  - [x] improve handling of pinned_tabs
 
 #### **Wild Ideas:**
 These are some ideas that I have been thinking about, but have yet to figure out their feasibility and if they are worth investing dev time.
@@ -71,7 +70,32 @@ These are some ideas that I have been thinking about, but have yet to figure out
 
 ## Version History
 
-**[v2.1.0](https://github.com/Mimieam/TabSorter2/discussions/33)** - 09/13/2022 (Released, pending review)
+**[v2.2.0](https://github.com/Mimieam/TabSorter2/discussions/35)** -  [UnReleased](https://github.com/Mimieam/TabSorter2/projects/5) - No Target date yet
+
+#### **Added/Done:**
+  * [x] Free trials of all features
+  * [x] Regular option page 
+  * [x] Popup Option on Right Click
+  * [x] Click Counter initial implementation
+  * [x] Chronological Sorts
+      * [x] lto - last tab opened
+      * [x] mrv - most recently viewed
+  * [x] The Box 😎 (highly experimental)
+  * [x] firefox migration investigation
+
+#### **Changed:**
+  * [x] UI updates
+  * [x] security updates (npm dependencies)
+  * [x] fixed storage issue
+  * [x] Tab Info Map (TIM) - 2nd Iteration - improved speed
+  * [x] fixed internal messaging (some clicks were not received by the service worker)
+  * [x] WIP - a library grouping of many of the custom internal functions to reuse in newer projects 
+
+  
+ 
+
+#
+**[v2.1.0](https://github.com/Mimieam/TabSorter2/discussions/33)** - 09/13/2022 (Released - **Current**)
 #### **Added:**
   * [x] Basic shortcuts added
     * [x] sort_current: `Alt+Shift+S`
