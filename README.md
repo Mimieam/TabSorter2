@@ -70,7 +70,7 @@ These are some ideas that I have been thinking about, but have yet to figure out
 
 ## Version History
 
-**[v2.2.0] (https://github.com/Mimieam/TabSorter2/discussions/35)** -  [Pending Review](https://github.com/Mimieam/TabSorter2/projects/5) - Targeted Release date: April 2023
+**[v2.2.0] (https://github.com/Mimieam/TabSorter2/discussions/35)** -  [Released](https://github.com/Mimieam/TabSorter2/projects/5) - 03/30/2023
 
 #### **Added/Done:**
   * [x] Free trials of all features
