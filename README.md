@@ -70,6 +70,9 @@ These are some ideas that I have been thinking about, but have yet to figure out
 
 ## Version History
 
+**[v2.2.8]** - 03/31/2023
+* Hotfix for version 2.2.0 - a file got ignored by the new packaging system, resulting in the app not working.
+
 **[v2.2.0] (https://github.com/Mimieam/TabSorter2/discussions/35)** -  [Released](https://github.com/Mimieam/TabSorter2/projects/5) - 03/30/2023
 
 #### **Added/Done:**
