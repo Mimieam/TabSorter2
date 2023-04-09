@@ -69,6 +69,9 @@ These are some ideas that I have been thinking about, but have yet to figure out
 <br>
 
 ## Version History
+**[v2.2.12]** - 04/08/2023
+* Fixed deploy Incident.
+* updated webpack prod build 
 
 **[v2.2.8]** - 03/31/2023
 * Hotfix for version 2.2.0 - a file got ignored by the new packaging system, resulting in the app not working.
