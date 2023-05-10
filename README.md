@@ -46,8 +46,8 @@ My hope is that with your continuous support, I will be able to keep on improvin
   - [ ] Save current tab to Clipboard - (sometimes we might want to copy all the url and not save them first 🤷🏾‍♂️)
   - [x] enhance sort function
   - [ ] ignore on merge - TS2 will ignore specific URLS when merging all windows
-  - [ ] revisit Deduplicate & ignore after delimiter
-  - [ ] Add a whitelist to prevent deduplicating on specifics URLs
+  - [x] revisit Deduplicate & ignore after delimiter
+  - [ ] <s>Add a whitelist to prevent deduplicating on specifics URLs</s>
   - [ ] ignore params after special characters - #,& ( expected to affect - sorting, deduplicating)
   - [x] Optional sorting on pinned tabs
   - [ ] deduplicate on all windows not just the current one
@@ -69,13 +69,22 @@ These are some ideas that I have been thinking about, but have yet to figure out
 <br>
 
 ## Version History
+**[v2.3.0]** WIP(https://github.com/Mimieam/TabSorter2/discussions/42) by priorities
+- tab group
+- auto close
+- session page
+- undo
+
+#
 **[v2.2.12]** - 04/08/2023
 * Fixed deploy Incident.
 * updated webpack prod build 
 
+#
 **[v2.2.8]** - 03/31/2023
 * Hotfix for version 2.2.0 - a file got ignored by the new packaging system, resulting in the app not working.
 
+#
 **[v2.2.0] (https://github.com/Mimieam/TabSorter2/discussions/35)** -  [Released](https://github.com/Mimieam/TabSorter2/projects/5) - 03/30/2023
 
 #### **Added/Done:**
