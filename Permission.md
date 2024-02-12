@@ -8,6 +8,7 @@
 {
   "permissions": [
     "tabs",
+    "tabGroups",
     "storage",
     "system.display",
     "alarms"
@@ -23,38 +24,43 @@
 
 
 Tabs:
-  - **usage**: used to access the tabs url and title for the purpose of sorting, saving and some internal filtering
-  - **details**:  https://developer.chrome.com/extensions/tabs
+  - **Usage**: used to access the tabs' URL and title for sorting, saving, and some internal filtering
+  - **Details**:  https://developer.chrome.com/extensions/tabs
 
 <br>
 
+TabGroups:
+  - **Usage**: used to support automatically creating a group for multiple tabs of the same domain
+  - **Details**:  [https://developer.chrome.com/extensions/tabs](https://developer.chrome.com/docs/extensions/reference/api/tabGroup)
+
+
 Storage:
-  - **usage**: used to access to the storage used for saving/restoring the state of the extension
-  - **details**: https://developer.chrome.com/extensions/storage
+  - **Usage**: used to access the storage used for saving/restoring the state of the extension
+  - **Details**: https://developer.chrome.com/extensions/storage
 
 <br>
 
 System.display:
-  - **usage**: used to access the screen dimensions, used for the purpose of splitting and stacking the windows
-  - **details**: https://developer.chrome.com/extensions/system_display
+  - **Usage**: used to access the screen dimensions, used to split and stack the windows
+  - **Details**: https://developer.chrome.com/extensions/system_display
 
 <br>
 
 Alarms:
-  - **usage**: used to implement an auto discard functionality checking if a tab has been opened for more than 45 minute and discarding it from memory
+  - **Usage**: used to implement an auto discard functionality checking if a tab has been opened for more than 45 minutes and discarding it from memory
   - **details**: https://developer.chrome.com/extensions/alarms
 
 <br>
 
 Downloads:
-  - **usage**: Enables downloading of saved file from the browser.
-  - **details**: https://developer.chrome.com/extensions/downloads
+  - **Usage**: Enables downloading of saved files from the browser.
+  - **Details**: https://developer.chrome.com/extensions/downloads
 
 <br>
 
 Host_permissions:
-  - **usage**: used to access the public suffix list, used internally for parsing tabs url and determine the subdomain, domain and tld (top level domain... i.e: .com, .co.uk .org .ci)
-  - **details**: When installing/updating the extension will download the public suffix list from https://publicsuffix.org/list/public_suffix_list.dat and store it.
+  - **Usage**: used to access the public suffix list, used internally for parsing tabs URL and determine the subdomain, domain, and tld (top-level domain... i.e: .com, .co.uk .org .ci)
+  - **Details**: When installing/updating the extension will download the public suffix list from https://publicsuffix.org/list/public_suffix_list.dat and store it.
   This list is used to parse the domain of a tab.
 
     >**basic use case**:
