@@ -49,6 +49,8 @@ These are some ideas that I have been thinking about, but have yet to figure out
 <br>
 
 ## Version History
+**[v2.3.4](https://github.com/Mimieam/TabSorter2/discussions/44)** (past due released date - 04/01/2025)
+
 **[v2.3.1](https://github.com/Mimieam/TabSorter2/discussions/42)** (Released - 02/18/2024)
 
 #### **Added/Done:**
